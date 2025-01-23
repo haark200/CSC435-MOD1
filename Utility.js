@@ -5,7 +5,7 @@
  */
 export function kgToGrams(kg) {
   if (typeof kg !== 'number' || kg < 0) {
-    throw new Error('Invalid input: Number cannot be negative.);
+    throw new Error('Invalid input: Number cannot be negative.');
   }
   return kg * 1000 + " Grams";
 }
