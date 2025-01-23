@@ -1,5 +1,5 @@
 # CSC435-MOD1 (Keagan Haar's Unit Conversion Application)
-- Download all 4 files, putting them all onto the same level of a folder.
+- Download all 4 files, putting them all onto the same level of a folder (App.js, Utility.js, index.html and styles.css).
 - Through some means of a live server, run the index HTML file (I personally used VS Code's live server extension).
 - Now with that completed, you should have an up and runnning application through your web browser!
 # Usage Tips
