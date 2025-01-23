@@ -5,7 +5,7 @@
 # Usage Tips
 - Simply enough, just select a conversion from the dropdown menu (selection of 5).
 - Then, enter a value into the above text box and convert using the given button at the bottom of the application box.
-(The background color dropdown menu differs from the others a bit, given you can only use 0-2 for an appropriate response, otherwise an error message will occur):
+- The background color dropdown menu differs from the others a bit, given you can only use 0-2 for an appropriate response, otherwise an error message will occur:
 0 for White
 1 for Light Blue
 2 for Red
