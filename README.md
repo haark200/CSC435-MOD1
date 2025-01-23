@@ -9,3 +9,5 @@
 0 for White,
 1 for Light Blue,
 2 for Red.
+# Screencast Code Walkthrough
+Link: https://www.youtube.com/watch?v=sPDSAmbX-B0
