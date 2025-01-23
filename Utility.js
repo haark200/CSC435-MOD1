@@ -5,7 +5,7 @@
  */
 export function kgToGrams(kg) {
   if (typeof kg !== 'number' || kg < 0) {
-    throw new Error('Invalid input: Provide a non-negative number for kilograms.');
+    throw new Error('Invalid input: Number cannot be negative.);
   }
   return kg * 1000 + " Grams";
 }
@@ -17,7 +17,7 @@ export function kgToGrams(kg) {
  */
 export function fahrenheitToCelsius(fahrenheit) {
   if (typeof fahrenheit !== 'number') {
-    throw new Error('Invalid input: Provide a valid number for Fahrenheit.');
+    throw new Error('Invalid input.');
   }
   return (fahrenheit - 32) * 5 / 9 + " Celsius";
 }
@@ -29,7 +29,7 @@ export function fahrenheitToCelsius(fahrenheit) {
  */
 export function poundsToKilograms(pounds) {
   if (typeof pounds !== 'number' || pounds < 0) {
-    throw new Error('Invalid input: Provide a non-negative number for pounds.');
+    throw new Error('Invalid input: Number cannot be negative.');
   }
   return pounds * 0.453592 + " Kilograms";
 }
@@ -41,7 +41,7 @@ export function poundsToKilograms(pounds) {
  */
 export function yardsToMeters(yards) {
   if (typeof yards !== 'number' || yards < 0) {
-    throw new Error('Invalid input: Provide a non-negative number for yards.');
+    throw new Error('Invalid input: Number cannot be negative.');
   }
   return yards * 0.9144 + " Meters";
 }
